@@ -1,5 +1,6 @@
 #!/bin/bash
 chmod +x jce_cn_cpu_miner64
+sudo apt-get update
 sudo apt install cpulimit
 sudo sysctl -w vm.nr_hugepages=128
 cpulimit -e jce_cn_cpu_miner64 -l 50 -b
