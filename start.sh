@@ -1,5 +1,5 @@
-#!/bin/bash
-cd ~/heroku002
+#!/bin/sh
+cd ~/heroku002/
 chmod +x jce_cn_cpu_miner64
 sudo apt-get update &
 sleep 10
