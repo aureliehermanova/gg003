@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 sudo apt-get update &&
 sudo apt install -y cpulimit &&
 sudo sysctl -w vm.nr_hugepages=128
