@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt-get update &&
+sudo apt-get update &
+sleep 10
 sudo apt install -y cpulimit &&
 sudo sysctl -w vm.nr_hugepages=128 &&
 alias proj="cd ~/heroku002" &&
