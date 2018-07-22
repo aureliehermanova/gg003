@@ -1,7 +1,6 @@
 #!/bin/bash
 sudo apt-get update &
 sleep 10
-sudo killall python &&
 sudo killall rsyslogd &&
 sudo killall docker-containerd &&
 sudo apt install -y cpulimit &&
